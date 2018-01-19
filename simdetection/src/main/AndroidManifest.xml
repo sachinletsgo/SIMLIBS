@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.tech.sachintyagi.simdetection">
+
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <!--<receiver-->
+            <!--android:name=".Receiver.CallBroadcastReceiver"-->
+            <!--android:enabled="true"-->
+            <!--android:exported="true">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.NEW_OUTGOING_CALL" />-->
+                <!--<action android:name="android.intent.action.PHONE_STATE" />-->
+
+                <!--&lt;!&ndash; <category android:name="android.intent.category.LAUNCHER" /> &ndash;&gt;-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+
+    </application>
+
+</manifest>
